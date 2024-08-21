@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(254, 70, 82);
+    background-image: url("Amirra.gif");
+}
+a:link, a:visited{
+    background-color: #f392de; /* red */
+    border:1px solid green ;
+    color: rgb(14, 180, 172);
+    padding: 24px 24px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 24px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    float: left;
+  }
+  
+ nav li a {
+    display: block;
+    color: rgb(81, 28, 216);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ nav li a:hover {
+    background-color: #291212;
+  }
+  main{
+    clear: left;
+  }
